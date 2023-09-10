@@ -1,4 +1,4 @@
-import { db } from '@/lib/db/db';
+import { db } from '@/lib/db/init';
 import { NextResponse } from 'next/server';
 
 export const runtime = 'edge';
